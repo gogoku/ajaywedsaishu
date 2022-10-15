@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp -R css build/ cp -R fonts build/ cp -R images build/ cp -R js build/ cp index.html build/"
+    "build": "rm -rfv build/* && cp -R css build && cp -R fonts build && cp -R images build && cp -R js build && cp index.html build"
   },
   "author": "",
   "license": "ISC",
