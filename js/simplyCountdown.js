@@ -117,7 +117,7 @@
         var parameters = extend({
                 year: 2022,
                 month: 11,
-                day: 11,
+                day: 12,
                 hours: 8,
                 minutes: 45,
                 seconds: 0,
@@ -130,7 +130,7 @@
                 },
                 plural: true,
                 inline: false,
-                enableUtc: false,
+                enableUtc: true,
                 onEnd: function () {
                     return;
                 },
