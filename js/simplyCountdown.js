@@ -118,7 +118,7 @@
                 year: 2022,
                 month: 11,
                 day: 11,
-                hours: 08,
+                hours: 8,
                 minutes: 45,
                 seconds: 0,
                 words: {
